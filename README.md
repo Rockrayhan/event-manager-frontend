@@ -1,4 +1,4 @@
-### Live site link: https://product-manager-eed65.web.app/
+### Live site link: https://event-manager-619.web.app
 <!-- ### server link: https://event-manager-server.vercel.app/events -->
 <!-- ### server link: https://event-manager-server-bqcq.onrender.com/events -->
 

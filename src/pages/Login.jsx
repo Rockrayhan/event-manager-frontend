@@ -90,12 +90,12 @@ const Login = () => {
             New User? Please Register
           </Link>
         </div>
-        <div className="flex items-center my-3">
+        <div className="items-center my-3 hidden">
           <hr className="flex-grow" />
           <span className="mx-2">OR</span>
           <hr className="flex-grow" />
         </div>
-        <div className="flex justify-center">
+        <div className="justify-center hidden">
           <button onClick={handleGoogleLogin} className="btn btn-dark flex items-center mr-3 custom-btn">
             <span>Continue With Google</span>
             <img
