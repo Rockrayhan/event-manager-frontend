@@ -3,8 +3,8 @@ import React from 'react';
 const Types = () => {
     return (
         <div className=' mt-20 text-center'>
-        <h1 className='text-4xl font-bold'> Transform Your Products </h1>
-        <p className='mt-3 text-gray-600'>Discover Your Perfect Needs In Our Site, Sell whenever you wants.</p>
+        <h1 className='text-4xl font-bold'> Discover Event Opportunities </h1>
+        <p className='mt-3 text-gray-600'>Explore and participate in the latest events tailored to your interests.</p>
 
         <div className=''>
             <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 container gap-10 mt-10'>
@@ -15,10 +15,10 @@ const Types = () => {
                     </svg>
 
 
-                    <h1 className='text-2xl font-semibold'> Top Sellers </h1>
-                    <p className='text-gray-600'>
-                    Learn and share your Products with the community.
-                    </p>
+                    <h1 className='text-2xl font-semibold'> Top Events </h1>
+                        <p className='text-gray-600'>
+                            Stay updated with the most trending and attended events.
+                        </p>
                 </div>
 
                 <div className='col-span-1 center flex-col mt-10 gap-4 shadow-md hover:shadow-2xl type-card p-4 bg-orange-200'>
@@ -28,10 +28,10 @@ const Types = () => {
 
 
 
-                    <h1 className='text-2xl font-semibold'> Self Explorement </h1>
-                    <p className='text-gray-600'>
-                    Learn and share your Products with the community.
-                    </p>
+                     <h1 className='text-2xl font-semibold'> Personal Growth </h1>
+                        <p className='text-gray-600'>
+                            Attend workshops and seminars that help boost your skills.
+                        </p>
                 </div>
                 <div className='col-span-1 center flex-col mt-10 gap-4 shadow-md hover:shadow-2xl type-card p-4 bg-orange-200'>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="type-icon">
@@ -40,10 +40,10 @@ const Types = () => {
 
 
 
-                    <h1 className='text-2xl font-semibold'> Video Blogs </h1>
-                    <p className='text-gray-600'>
-                    Learn and share your Products with the community.
-                    </p>
+                  <h1 className='text-2xl font-semibold'> Event Highlights </h1>
+                        <p className='text-gray-600'>
+                            Watch highlights and recaps from past events and gatherings.
+                        </p>
                 </div>
                 <div className='col-span-1 center flex-col mt-10 gap-4 shadow-md hover:shadow-2xl type-card p-4 bg-orange-200'>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="type-icon">
@@ -52,10 +52,10 @@ const Types = () => {
 
 
 
-                    <h1 className='text-2xl font-semibold'>  Navigation Blogs </h1>
-                    <p className='text-gray-600'>
-                    Learn and share your Products with the community.
-                    </p>
+                      <h1 className='text-2xl font-semibold'> Explore Venues </h1>
+                        <p className='text-gray-600'>
+                            Find events happening around you and plan your journey.
+                        </p>
                 </div>
 
             </div>

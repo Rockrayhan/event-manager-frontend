@@ -23,6 +23,8 @@ const EditEvent = () => {
       location,
       dateTime,
     };
+    console.log(user.name);
+    
 
     await fetch(`http://localhost:5000/events/${event._id}`, {
       method: "PATCH",

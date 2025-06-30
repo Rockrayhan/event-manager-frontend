@@ -1,7 +1,8 @@
 import React from 'react';
 
 const Categories = () => {
-  const categories = ['Technology', 'Lifestyle', 'Travel', 'Food', 'Education'];
+  const categories = ['Conference', 'Workshop', 'Meetup', 'Webinar', 'Seminar'];
+
 
   return (
     <div className="p-6 bg-base-100 my-10">

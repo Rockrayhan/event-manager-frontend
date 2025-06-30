@@ -3,7 +3,6 @@ import Banner from '../Components/Banner';
 import Types from '../Components/Types';
 import TopBloggers from '../Components/TopBloggers';
 import Categories from '../Components/Categories';
-import RecentPosts from '../Components/RecentPosts';
 import Subscribe from '../Components/Subscribe';
 
 const Home = () => {
@@ -13,7 +12,6 @@ const Home = () => {
           <Categories/>
           <Types/>
           <TopBloggers/>
-          <RecentPosts/>
           <Subscribe/>
         </div>
     );

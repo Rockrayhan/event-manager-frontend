@@ -1,5 +1,7 @@
 ### Live site link: https://product-manager-eed65.web.app/
-<!-- ### server link: http://localhost:5000/ -->
+<!-- ### server link: https://event-manager-server.vercel.app/events -->
+<!-- ### server link: https://event-manager-server-bqcq.onrender.com/events -->
+
 ### server link: http://localhost:5000/
 
 
@@ -17,4 +19,3 @@
 * use commands on the root directory `npm install` & `npm run dev`
 * git clone the server repository 
 * use commands on the root directory `npm install` & `npm run dev`
-* in the index.js file uncomment the DB_URI credential at line 24 and use it to connect db. 

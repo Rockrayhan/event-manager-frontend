@@ -47,7 +47,7 @@ const Navbar = () => {
             src="https://img.freepik.com/premium-vector/alphabetical-letter-e-logo-collection_647881-448.jpg"
             alt="event-logo"
           />
-          <span className="text-xl font-bold text-white">Event Manager</span>
+          <span className="text-xl font-bold text-gray-800">Event Manager</span>
         </Link>
       </div>
 

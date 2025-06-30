@@ -42,7 +42,7 @@ const router = createBrowserRouter([
         path: "/events/edit/:id",
         element: <EditEvent />,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/products/${params.id}`),
+          fetch(`http://localhost:5000/events/${params.id}`),
       },
 
       {
