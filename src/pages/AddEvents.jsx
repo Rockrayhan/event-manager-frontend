@@ -28,7 +28,7 @@ const AddEvent = () => {
 
     if (!window.confirm("Add this Event?")) return;
 
-    await fetch("http://localhost:5000/events", {
+    await fetch("https://event-manager-server-bqcq.onrender.com/events", {
       method: "POST",
       headers: {
         "Content-type": "application/json",

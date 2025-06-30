@@ -9,7 +9,7 @@ const MyEvents = () => {
   const userEmail = user?.email ; 
 
   useEffect(() => {
-    fetch(`http://localhost:5000/myevents?email=${userEmail}`)
+    fetch(`https://event-manager-server-bqcq.onrender.com/myevents?email=${userEmail}`)
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, [userEmail]);

@@ -2,20 +2,18 @@
 <!-- ### server link: https://event-manager-server.vercel.app/events -->
 <!-- ### server link: https://event-manager-server-bqcq.onrender.com/events -->
 
-### server link: http://localhost:5000/
+### server link: https://event-manager-server-bqcq.onrender.com/
 
 
 
 #### Key Features:
-* This is a Product Management Application 
+* This is a Event Management Application 
 * Authentication with firebase 
-* user can see his/her own products, update and delete them. 
-* user can purchase other user's Products
-* user can see his purchased Products
+* user can see his/her own Events, update and delete them. 
+
 
 
 #### How to run: 
 * git clone the client repository 
 * use commands on the root directory `npm install` & `npm run dev`
-* git clone the server repository 
-* use commands on the root directory `npm install` & `npm run dev`
+

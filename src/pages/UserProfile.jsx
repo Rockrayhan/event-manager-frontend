@@ -13,7 +13,7 @@ const UserProfile = () => {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch(`http://localhost:5000/user/${user?.email}`)
+    fetch(`https://event-manager-server-bqcq.onrender.com/user/${user?.email}`)
       .then((res) => res.json())
       .then((data) => setUserInfo(data));
   }, [user]);
@@ -35,7 +35,7 @@ const UserProfile = () => {
 
     console.log(userData);
 
-    fetch(`http://localhost:5000/user/${userInfo?.email}`, {
+    fetch(`https://event-manager-server-bqcq.onrender.com/user/${userInfo?.email}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

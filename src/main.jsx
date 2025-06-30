@@ -12,7 +12,6 @@ import PrivateRoute from "./privateRoute/PrivateRoute.jsx";
 import Profile from "./pages/Profile.jsx";
 
 import Purchased from "./pages/Purchased.jsx";
-import Payment from "./pages/Payment.jsx";
 import AddEvent from "./pages/AddEvents.jsx";
 import MyEvents from "./pages/MyEvents.jsx";
 import EditEvent from "./pages/EditEvent.jsx";
@@ -30,19 +29,19 @@ const router = createBrowserRouter([
       {
         path: "/all-events",
         element: <PrivateRoute> <AllEvents /> </PrivateRoute>   ,
-        // loader: ()=> fetch("http://localhost:5000/products")
+        // loader: ()=> fetch("https://event-manager-server-bqcq.onrender.com/products")
       },
       // {
       //   path:"/products/:id",
       //   element: <Payment/>,
       //   loader: ({params})=>
-      //     fetch(`http://localhost:5000/products/${params.id}`),
+      //     fetch(`https://event-manager-server-bqcq.onrender.com/products/${params.id}`),
       // },
       {
         path: "/events/edit/:id",
         element: <EditEvent />,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/events/${params.id}`),
+          fetch(`https://event-manager-server-bqcq.onrender.com/events/${params.id}`),
       },
 
       {

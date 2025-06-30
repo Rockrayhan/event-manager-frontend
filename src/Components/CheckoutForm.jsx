@@ -20,7 +20,7 @@ const CheckoutForm = ({ product }) => {
         if (!price) return;
 
         // Use axios to make the request
-        axios.post('http://localhost:5000/create-payment-intent', { price: totalPrice })
+        axios.post('https://event-manager-server-bqcq.onrender.com/create-payment-intent', { price: totalPrice })
             .then(res => {
                 console.log(res.data.clientSecret);
                 setClientSecret(res.data.clientSecret);
@@ -90,7 +90,7 @@ const CheckoutForm = ({ product }) => {
             if (paymentIntent.status === 'succeeded') {
                 console.log('transaction id', paymentIntent.id);
                 setTransactionId(paymentIntent.id);
-                await fetch("http://localhost:5000/purchase", {
+                await fetch("https://event-manager-server-bqcq.onrender.com/purchase", {
                     method: "POST",
                     headers: {
                         "Content-type": "application/json",

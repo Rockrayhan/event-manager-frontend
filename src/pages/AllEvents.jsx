@@ -12,7 +12,7 @@ const AllEvents = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:5000/events")
+    fetch("https://event-manager-server-bqcq.onrender.com/events")
       .then((res) => res.json())
       .then((data) => {
         setEvents(data);

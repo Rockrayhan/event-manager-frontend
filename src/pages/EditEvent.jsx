@@ -26,7 +26,7 @@ const EditEvent = () => {
     console.log(user.name);
     
 
-    await fetch(`http://localhost:5000/events/${event._id}`, {
+    await fetch(`https://event-manager-server-bqcq.onrender.com/events/${event._id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

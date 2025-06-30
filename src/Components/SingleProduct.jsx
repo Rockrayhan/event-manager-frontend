@@ -18,7 +18,7 @@ const SingleProduct = ({ item, onDelete, userEmail }) => {
     const confirm = window.confirm("Are you sure you want to delete this event?");
     if (!confirm) return;
 
-    await fetch(`http://localhost:5000/events/${_id}`, {
+    await fetch(`https://event-manager-server-bqcq.onrender.com/events/${_id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

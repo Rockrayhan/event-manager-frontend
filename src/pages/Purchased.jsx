@@ -7,7 +7,7 @@ const Purchased = () => {
   const userEmail = user?.email;
 
   useEffect(() => {
-    fetch(`http://localhost:5000/purchased?email=${userEmail}`)
+    fetch(`https://event-manager-server-bqcq.onrender.com/purchased?email=${userEmail}`)
       .then((res) => res.json())
       .then((data) => {
         const aggregatedProducts = aggregateProducts(data);
